@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  font-size: 14px;
+}
+
+a {
+  color:inherit;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 20px;
+  font-size: 85%;
+}
+footer > p {
+  margin: 0;
+}
+footer > p > .contact {
+  float: right;
+}
+
+.cover {
+  text-align: center;
+  
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cover a:not(:last-child) {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.cover hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid black;
+  max-width: 320px;
+  width: 100%;
+}
+
+.cover h1 {
+  font-size: 5em;
+  font-weight: 200;
+  margin: 0;
+}
+.cover h2 {
+  font-weight: 400;
+}
+
+
+@media(max-width:767px) {
+  .cover h1 {
+    font-size: 3em;
+  }
+}
+
+
+body {
+  padding-top: 50px;
+}
